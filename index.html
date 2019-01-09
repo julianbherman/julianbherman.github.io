@@ -1,4 +1,22 @@
 ---
 title: Home
+images:
+  - image_path: /assets/images/betelgeuse_no_edit.jpg
+    title: Betelgeuse
+  - image_path: /assets/images/CRT_TV_to_oscilloscope_display.mp4
+    title: CRT TV Oscilloscope
+  - image_path: p/
+    title:
+  - image_path: p/
+    title:
+  - image_path: p/
+    title:
+  - image_path: p/
+    title:
 ---
 <h1>{{ "Hello World!" | downcase }}</h1>
+<ul class="photo-gallery">
+  {% for image in page.images %}
+    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
+  {% endfor %}
+</ul>
