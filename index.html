@@ -1,22 +1,23 @@
 ---
 title: Home
 images:
-  - image_path: /assets/images/betelgeuse_no_edit.jpg
-    title: Space
+  - image_path: /assets/images/orion_edit_1.jpg
+    title: Astrophotography
   - image_path: /assets/images/CRT_TV_Oscilloscope.png
-    title: CRT TV Oscilloscope
+    title: Science Experiments
   - image_path: p/
-    title:
+    title: Electronics
   - image_path: p/
-    title:
+    title: Robotics
   - image_path: p/
-    title:
-  - image_path: p/
-    title:
+    title: Miscellanious
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
-<ul class="photo-gallery">
-  {% for image in page.images %}
-    <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
-  {% endfor %}
-</ul>
+<h1>My Projects</h1>
+
+<div class="row">
+    {% for image in page.images %}
+    <div class="column">
+      <img src="{{ image.image_path }}" alt="{{ image.title }}" style="width:100%">
+    </div>
+    {% endfor %}
+</div>

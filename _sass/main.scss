@@ -1,7 +1,15 @@
 .current {
     color: green;
 }
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
 }
-.photo-gallery {
-    display: grid;
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
