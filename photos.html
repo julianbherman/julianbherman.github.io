@@ -1,3 +1,4 @@
+---
 images:
   - image_path: /assets/images/betelgeuse_no_edit.jpg
     title: Betelgeuse
@@ -11,6 +12,7 @@ images:
     title:
   - image_path: p/
     title:
+---
 <ul class="photo-gallery">
   {% for image in page.images %}
     <li><img src="{{ image.image_path }}" alt="{{ image.title}}"/></li>
