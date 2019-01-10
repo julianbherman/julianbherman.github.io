@@ -1,7 +1,7 @@
 - name: Home
   link: /
 - name: About
-  link: /about.html
+  link: /about.md
 - name: Astrophotograpy
   link: /astrophotography.html
 - name: Science Experiments
