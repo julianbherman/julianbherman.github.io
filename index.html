@@ -17,11 +17,13 @@ images:
 <body style="background-color:powderblue;">
 <h1><center>MY PROJECTS</center></h1>
 
+<div style="background-color:aliceblue;">
 {% for image in page.images %}
 <p style="float: left; font-size: 18pt; text-align: center; width: 23%; margin-right: 1%; margin-bottom: 0.5em;">
 <a href="{{ image.link }}"><img src="{{ image.image_path }}" alt="{{ image.title }}" style="width: 100%;"></a>
 <a href="{{ image.link }}">{{ image.title }} </a></p>
 {% endfor %}
 <p style="clear: both;"></p>
+</div>
 <h2><center>CURRENT PROJECT</center></h2>
 </body>
