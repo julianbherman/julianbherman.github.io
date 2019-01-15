@@ -2,11 +2,11 @@
   link: /
 - name: About
   link: /about.html
-- name: Astrophotograpy
+- name: Astrophotography
   link: /astrophotography.html
-- name: Science Experiments
-  link: /science-experiments.html
-- name: Robotics/Electronics
+- name: Experiments
+  link: /experiments.html
+- name: Robotics-Electronics
   link: /robotics-electronics.html
 - name: Miscellaneous
   link: /miscellaneous.html

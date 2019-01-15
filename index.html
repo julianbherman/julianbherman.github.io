@@ -4,26 +4,24 @@ images:
   - image_path: /assets/images/Astrophotography/orion_edit_1.jpg
     title: Astrophotography
     link: /astrophotography.html
-  - image_path: /assets/images/Robotics-Electronics/Marx_generator_2.jpg
-    title: Science Experiments
-    link: /science-experiments.html
+  - image_path: /assets/images/Experiments/Marx_generator_2.jpg
+    title: Experiments
+    link: /experiments.html
   - image_path: /assets/images/Robotics-Electronics/Kyar.jpg
-    title: Robotics/Electronics
+    title: Robotics-Electronics
     link: /robotics-electronics.html
   - image_path: /assets/images/Miscellaneous/Magnet_boots.png
     title: Miscellaneous
     link: /miscellaneous.html
 ---
-<body style="background-color:powderblue;">
+<body class="parallax">
 <h1><center>MY PROJECTS</center></h1>
 
-<div style="background-color:aliceblue;">
 {% for image in page.images %}
 <p style="float: left; font-size: 18pt; text-align: center; width: 23%; margin-right: 1%; margin-bottom: 0.5em;">
 <a href="{{ image.link }}"><img src="{{ image.image_path }}" alt="{{ image.title }}" style="width: 100%;"></a>
 <a href="{{ image.link }}">{{ image.title }} </a></p>
 {% endfor %}
-<p style="clear: both;"></p>
-</div>
-<h2><center>CURRENT PROJECT</center></h2>
+<h2><center>Current Project</center></h2>
+</p>
 </body>

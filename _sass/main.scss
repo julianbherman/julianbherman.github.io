@@ -4,12 +4,46 @@
 
 table, th, td {
     border: 3px solid black;
+    margin-left:auto; 
+    margin-right:auto;
 }
 
 p {
-    background-color: dodgerblue;
+    background-color: rgb(170, 154, 154);
 }
 
 h1 {
     background-color: tomato;
+}
+
+.btn {
+    border: none;
+    background-color: inherit;
+    padding: 14px 65px;
+    font-size: 20px;
+    cursor: pointer;
+    display: inline-block;
+}
+  
+/* On mouse-over */
+.btn:hover {background: #eee;}
+.Home{color:rgb(119, 143, 119);}
+.Astrophotography {color:rgb(75, 75, 180);}
+.About {color: dodgerblue;}
+.Miscellaneous {color: rgb(231, 167, 47);}
+.Robotics-Electronics {color: rgb(145, 28, 28);}
+.Experiments {color: rgb(73, 73, 40);}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+  
+.parallax { 
+    background-image: url("/assets/images/background.jpg");
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
