@@ -62,15 +62,14 @@ body, html {
 }
   
 .column {
-    flex: 50%;
-    max-width: 100%;
+    flex: 25%;
+    max-width: 25%;
     padding: 0 4px;
 }
   
 .column img {
     margin-top: 8px;
     vertical-align: middle;
-    width: 33%;
 }
   
 /* Responsive layout - makes a two column-layout instead of four columns */
