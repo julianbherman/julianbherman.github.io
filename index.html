@@ -18,8 +18,8 @@ images:
 <h1><center>MY PROJECTS</center></h1>
 
 {% for image in page.images %}
-<p style="float: left; font-size: 18pt; text-align: center; width: 23%; margin-right: 1%; margin-bottom: 0.5em;">
-<a href="{{ image.link }}"><img src="{{ image.image_path }}" alt="{{ image.title }}" style="width: 100%;"></a>
+<p style="font-size: 18pt; text-align: center; width: 50%; margin-bottom: 3em;" class="center">
+<a href="{{ image.link }}"><img src="{{ image.image_path }}" class="center" alt="{{ image.title }}" style="width: 100%;" border="5"></a>
 <a href="{{ image.link }}">{{ image.title }} </a></p>
 {% endfor %}
 <h2><center>Current Project</center></h2>
