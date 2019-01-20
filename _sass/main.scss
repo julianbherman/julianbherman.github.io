@@ -80,6 +80,14 @@ body, html {
 
 .cell img {
     display: block;
+    max-width:100%;
+    max-height:100%;
+}
+
+.cell video {
+    display: block;
+    max-width:100%;
+    max-height:100%;
 }
 
 .cell {
@@ -87,12 +95,22 @@ body, html {
 }
 
 @media screen and (min-width: 600px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     .cell {
       width: calc(50% - 2rem);
     }
 }
   
 @media screen and (min-width: 1000px) {
+    .grid {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
     .cell {
       width: calc(33.3333% - 2rem);
     }
