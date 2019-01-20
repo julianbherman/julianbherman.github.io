@@ -4,11 +4,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-table, th, td {
-  border: 3px solid black;
-  margin-left: auto;
-  margin-right: auto; }
-
 h1 {
   background-color: rgba(83, 73, 97, 0.5);
   font-size: 75px;
