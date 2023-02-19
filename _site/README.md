@@ -1,4 +1,4 @@
 # julianbherman.github.io
 
-MY PROFESSIONAL WEBSITE
+MY INFORMAL WEBSITE
 a documentation of my projects
